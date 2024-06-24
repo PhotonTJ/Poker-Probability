@@ -1,14 +1,13 @@
-# Poker-Probability
-This project is designed to calculate the probability of obtaining a flush in a 5-card stud poker game. By simulating the game, it leverages abstract data types (ADTs) to model cards and uses vectors and shuffle operations from the C++ Standard Template Library (STL) to handle deck manipulation and card distribution. This calculator provides an efficient and flexible method to explore and understand the likelihood of specific poker hands in a 5-card setting.
+This project calculates the probability of obtaining a flush in 5-card stud poker using Monte Carlo simulation. It employs abstract data types (ADTs) to model cards and utilizes vectors and shuffle operations from the C++ Standard Template Library (STL) for deck manipulation and card distribution. The Monte Carlo approach enables precise probability estimation by simulating a vast number of poker hands.
 
 Features
-Card ADT: Represents individual playing cards, encapsulating suit and rank, ensuring a clean and modular approach.
-Deck Operations: Uses vectors to represent a deck of cards, allowing dynamic and efficient card handling.
-Shuffling: Utilizes the std::shuffle function for random deck shuffling, simulating realistic card distributions.
-Probability Calculation: Simulates multiple poker hands to statistically estimate the probability of achieving a flush.
-Configurable Simulations: Allows adjustment of the number of simulation iterations for more precise probability estimates.
-Dependencies
+Card ADT: Represents individual playing cards, encapsulating suit and rank for a clean and modular design.
+Deck Operations: Uses vectors to represent and manipulate a deck of cards efficiently.
+Shuffling: Employs the std::shuffle function for realistic card shuffling.
+Monte Carlo Simulation: Utilizes Monte Carlo methods to estimate the probability of obtaining a flush by simulating numerous poker hands.
+Configurable Simulations: Allows adjustment of the number of Monte Carlo iterations for more precise probability estimates.
 
+Dependencies
 C++ Standard Library: Utilizes vectors and shuffle functions.
 C++11 or Later: Requires modern C++ features for random number generation and ADT support.
 
