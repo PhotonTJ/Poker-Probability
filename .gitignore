@@ -1,0 +1,10 @@
+build/
+backend/.venv/
+backend/__pycache__/
+backend/**/__pycache__/
+backend/.pytest_cache/
+backend/app/poker_engine*.so
+frontend/node_modules/
+frontend/dist/
+.DS_Store
+frontend/tsconfig.tsbuildinfo
